@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <input type="text" placeholder="Search your Tasks">
+            <button onclick="submit()">submit</button>
+        </ul>
+    </div>
+
+    <br><br>
+    <div class="container">
+        <h1>Todo-List</h1>
+        <input type="text" class="Inputs" id="inp" placeholder="Enter Your Tasks" size="40px">
+        <button onclick="Add()">Add</button>
+        <div id="licontainers"></div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
